@@ -1,0 +1,55 @@
+body { 
+    margin: 0;
+    padding: 2rem;
+    font-family: 'Inter', sans-serif;
+    background: #f9fafb;
+    color: #333;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: black;
+  }
+
+  .timeline {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    padding-left: 30px;
+    border-left: 3px solid #c7d2fe;
+  }
+
+  .timeline-item {
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  
+  .timeline-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #111827;
+  }
+
+  .timeline-item .year {
+    font-weight: bold;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline-item p {
+    margin-top: 0.2rem;
+    color: #4b5563;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      padding: 1rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
